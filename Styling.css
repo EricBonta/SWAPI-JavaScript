@@ -1,0 +1,83 @@
+main {
+    display: flex;
+    margin-left: 30px;
+}
+
+body {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZDhlMzY0ZGItZTcyNS00ZTAxLWIyMmYtZGQ2ODg5OWZiYmJkXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_.jpg);
+    background-size: cover;
+}
+
+a {
+    background-color: wheat;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 10px;
+    color: rgb(78, 177, 20);
+}
+
+.btn {
+    padding-top: 1em;
+    padding-right: 1em;
+    font-size: 1.5em;
+}
+
+.btn ul {
+    border: 2px solid rgba(34, 87, 167, 0.555);
+    border-radius: 6px;
+    box-shadow: 5px 5px 40px;
+    padding: 30px
+}
+
+button {
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+li {
+    background-color: wheat;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 10px;
+    color: tomato;
+}
+
+li:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: yellowgreen;
+}
+
+h2 {
+    color: yellow;
+}
+
+.content,
+.worldContent {
+    margin-top: 45px;
+    display: inline-block;
+    font-size: 2em;
+}
+
+.worldContent {
+    margin-left: 20px;
+}
+
+article {
+    height: 400px;
+    padding: 5px 30px 0px 30px;
+    background-color: rgba(128, 128, 128, 0.644);
+    border-radius: 6px;
+    box-shadow: 5px 5px 40px;
+}
